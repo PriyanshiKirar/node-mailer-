@@ -10,7 +10,7 @@ app.get('/send-email', async (req, res) => {
       'asthap602@gmail.com',
       'Test Email Subject',
       'This is a test email sent with Nodemailer using OAuth2.',
-      '<p>This is a test email sent with <b>Nodemailer</b> using OAuth2.</p>'
+      '<p>This is a test email sent  <b>Nodemailer</b> using OAuth2.</p>'
     );
     res.send('Email sent successfully!');
   } catch (error) {
